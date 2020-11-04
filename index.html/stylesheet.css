@@ -260,19 +260,25 @@ footer{
   .top{
     font-size: 30px;
     height: 300px;
+    padding: 0px;
+    margin: 0px;
   }
   .concept{
     text-align: center;
     float: none;
+    padding: 0px;
+    margin: 0px;
   }
   h2{
     font-size: 25px;
   }
   p{
     font-size: 18px;
-    color: red;
-  }
 
+  }
+  .Service,.work{
+    float: none;
+  }
 
   .service{
     height: 900px;
