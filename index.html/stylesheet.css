@@ -269,6 +269,7 @@ footer{
     padding: 0px;
     margin: 0px;
     display: inline-block;
+    width: 100%;
   }
   h2{
     font-size: 25px;
@@ -277,8 +278,8 @@ footer{
     font-size: 18px;
 
   }
-  .Service,.work{
-    float: none;
+  .Services,.work{
+    width: 100%;
   }
 
   .service{
