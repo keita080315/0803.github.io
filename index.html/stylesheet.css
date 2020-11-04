@@ -270,11 +270,10 @@ footer{
   }
   p{
     font-size: 18px;
+    color: red;
   }
-  .services{
-    width: 100%;
-  }
-  
+
+
   .service{
     height: 900px;
     padding-top: 0;
