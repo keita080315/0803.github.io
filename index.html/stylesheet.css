@@ -274,7 +274,8 @@ footer{
   .concept p{
     padding: 0px;
     margin: 0px;
-    text-align: center;
+    float: none;
+    color: red;
   }
   h2{
     font-size: 25px;
