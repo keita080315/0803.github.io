@@ -274,11 +274,14 @@ footer{
   h2{
     font-size: 25px;
   }
-  p{
+  .works p{
     font-size: 18px;
 
   }
-  .Services,.work{
+  .works{
+    width: 100%;
+  }
+  .services,.work{
     width: 100%;
   }
 
