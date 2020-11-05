@@ -271,6 +271,11 @@ footer{
     display: inline-block;
     width: 100%;
   }
+  .concept p{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
   h2{
     font-size: 25px;
   }
