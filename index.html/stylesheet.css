@@ -166,7 +166,7 @@ body{
 .services h3{
   position: absolute;
   top:200px;
-  left: 110px;
+  left: 23%;
   color: white;
   font-size: 45px;
   font-weight:900;
@@ -252,7 +252,7 @@ footer{
   background-color: white;
   margin-left: 20px;
 }
-@media(max-width:670px){
+@media(max-width:740px){
   *{
     text-align: center;
   }
@@ -302,8 +302,8 @@ footer{
     font-size: 15px;
     letter-spacing: 0px;
     line-height: 20px;
-    width: 100%;
-
+    width: 90%;
+    display: inline-block;
   }
   .works p{
   font-size: 15px;
