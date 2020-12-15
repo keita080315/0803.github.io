@@ -1,0 +1,545 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family:  "游ゴシック Medium";
+  width: 100%;
+}
+.serif{
+  font-family: 'Ms serif';
+}
+.white{
+  color: white;
+}
+.header-left{
+  float:left;
+  margin-left: 90px;
+  top: 0px;
+  font-size: 20px;
+  padding-top: 20px;
+    font-family: 'Ms serif';
+}
+.header-right{
+  float: right;
+  margin-right: 25px;
+}
+.header-right a{
+  float:left;
+  color: white;
+  padding-left: 15px;
+  text-decoration: none;
+  font-size: 24px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.top{
+  height: 390px;
+  padding: 230px 90px;
+  //background-image: url(https://cdn.pixabay.com/photo/2020/05/05/12/12/coffee-5132832_1280.jpg);
+  background-size:cover;
+}
+.concept{
+  height: 900px;
+}
+.top h1{
+  padding: 130px 0px 0px 0px;
+  margin-bottom: 0px;
+  font-size: 70px;
+}
+.top h2{
+  padding: 20px 60px;
+  font-size: 25px;
+}
+.concept h3{
+  margin: 0px 0px 5px 0px;
+  text-align: center;
+  font-size: 30px;
+}
+.concept p{
+  padding: 160px  0px 60px 120px;
+  width: 450px;
+  font-size: 15px;
+  float: left;
+  line-height: 20px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+.concept h2{
+  padding: 60px 140px 120px ;
+  font-size: 70px;
+}
+.small{
+  width: 440px;
+  height: 240px;
+  float: right;
+  padding: 120px 150px 80px 40px ;
+
+}
+.concept h4{
+  opacity: 0.05;
+  float: right;
+  padding: 20px 70px 40px 0px;
+  font-size: 90px;
+  letter-spacing: 7px;
+}
+.works{
+  height: 900px;
+  color: white;
+  display: none;
+  background-image: url(https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091_1280.jpg);
+  text-align: center;
+  background-size: cover;
+}
+.works h2{
+  float: right;
+  font-size: 65px;
+  margin: 0px 160px 0px px;
+  letter-spacing: 5px;
+  width: 42%;
+  padding-left: 250px;
+
+}
+.works-image{
+  background-color: white;
+  width: 300px;
+  height: 180px;
+}
+.work p{
+  color: black;
+  background-color: white;
+  width: 260px;
+  font-size: 15px;
+  padding: 20px 21px;
+  display: inline-block;
+  line-height: 30px;
+}
+.work{
+  float: left;
+  width: 33.3%;
+  margin: 50px 0px;
+  height: 180px;
+  display: inline-block;
+  text-align: center;
+
+}
+.container{
+  width: 80%;
+  height: 440px;
+
+
+  margin: 70px auto;
+}
+.works a{
+  font-weight: bold;
+  background-color: #FFD700;
+  border-radius: 30px;
+  color:black;
+  padding: 20px 80px;
+  font-size: 15px;
+  text-decoration: none;
+}
+.our-works{
+  font-size: 90px;
+  opacity: 0.1;
+  margin:100px 600px 30px 0px ;
+  letter-spacing: 5px;
+  font-weight: 900;
+}
+.merit-wrapper h2{
+  text-align: center;
+  font-size: 35px;
+  padding: 50px;
+  letter-spacing: 8px;
+  font-family: "游ゴシック Medium";
+}
+.merits{
+  margin: 0px auto;
+  display: flex;
+  width: 60%;
+}
+.merit{
+  width: 33.3%;
+  flex: auto;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+.round{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #B8860B;
+  color: black;
+  margin: 0 auto;
+}
+.round p{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+}
+.merit h3{
+  text-align: center;
+  padding: 25px;
+}
+i{
+  color: black;
+  font-size: 30px;
+}
+.first ,.second{
+  height: 400px;
+}
+.text1{
+  float: left;
+  padding: 40px 150px;
+}
+.text2{
+  float: right;
+  padding: 40px 150px;
+}
+.text1 h1,.text2 h1{
+  font-size: 45px;
+  padding-left: 40px;
+}
+.text1 h3,.text2 h3{
+  font-size: 30px;
+}
+.text1 p{
+  padding: 20px 0px;
+}
+.text2 p{
+  padding: 20px 0px;
+}
+
+.first img{
+  float: left;
+  padding: 50px 100px;
+  width: 400px;
+  height: 280px;
+}
+.second img{
+  float: left;
+  padding: 50px 100px;
+  width: 400px;
+  height: 280px;
+}
+.height{
+  width: 200px;
+  height: 300px;
+}
+.advertise{
+  width: 100%;
+  height: 300px;
+  background-color: rgba(128, 128, 0, 0.2);
+  margin: 80px 0;
+}
+.text3 span{
+  font-size: 18px;
+}
+.text3 h1{
+    margin: 10px 0px;
+}
+.text3{
+  float: left;
+  padding: 0px 0 0 15px;
+  margin: 90px 0 0 55px;
+  border-left: 8px solid black;
+}
+.text3 h2{
+  padding: 0 0 0 0px;
+  font-size: 30px;
+}
+.text3 a{
+  padding: 5px 20px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.image3{
+  height: 300px;
+  margin: 0px 100px;
+}
+.example{
+  width: 100%;
+  height: 1200px;
+  text-align: center;
+}
+.image1{
+  width: 80%;
+}
+.image2{
+  width: 25%;
+  float: left;
+  padding-right: 60px;
+}
+.example-text{
+  padding: 35px 10%;
+}
+.example h1{
+  text-align: left;
+  padding: 0px 0 0 30px;
+  margin: 90px 0 40px 55px;
+  border-left: 8px solid black;
+}
+.example-text h4{
+  text-align: left;
+  padding-top: 20px;
+}
+.example-text p{
+  padding-top: 10px;
+  text-align: left;
+}
+.service{
+  display: none;
+  color: black;
+  height: 780px;
+  width: 100%;
+
+}
+.services{
+  float: left;
+  width: 33.3%;
+  position: relative;
+  height: 300px;
+  padding-top: 100px;
+}
+.service-image{
+  height: 300px;
+  width: 100%;
+
+
+}
+.services h3{
+  position: absolute;
+  top:200px;
+  left: 23%;
+  color: white;
+  font-size: 45px;
+  font-weight:900;
+  letter-spacing: 3px;
+}
+.service h1{
+  clear: both;
+  font-size: 95px;
+  opacity: 0.05;
+  float: right;
+  padding:50px 90px 50px 0px;
+  letter-spacing: 3px;
+  font-weight:bold;
+}
+.service h2{
+  font-size: 60px;
+  padding:60px 0px 0px 200px;
+  letter-spacing: 5px;
+}
+.contact{
+  padding-top: 80px;
+  height: 620px;
+  width: 100%;
+  color: black;
+  text-align:left;
+
+  background-color: rgba(192, 192, 192, 0.1);
+}
+input{
+  width: 100%;
+  height: 20px;
+}
+textarea{
+  width: 100%;
+}
+.submit{
+  width: 60px;
+  background-color: white;
+
+}
+.context{
+  float: left;
+    padding-left: 150px;
+width: 40%;
+}
+.contact h1{
+  margin-left: 150px;
+  padding-left: 25px;
+  border-left: 8px solid black;
+}
+.contact p{
+  font-size: 20px;
+  padding: 30px 0px 0 0;
+  font-weight: 800;
+}
+
+.contact a{
+  clear: both;
+  background-color: #FFD700;
+  border-radius: 30px;
+  padding: 20px 80px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.contact h4{
+  opacity: 0.1;
+  font-size: 120px;
+  padding: 300px 10% 0px 0px;
+  float: right;
+}
+.image4{
+  float: right;
+  width: 200px;
+  padding: 160px 40px 0 40px;
+}
+.image5{
+  float: right;
+  width: 200px;
+  padding-top: 60px;
+}
+footer{
+  height: 50px;
+  display:inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(192, 192, 192, 0.1);
+}
+.footer p{
+  padding-top: 10px;
+}
+.common{
+  display: flex;
+  align-items: center;
+}
+.border1:after{
+  content: "";
+  flex-grow: 0.25;
+  height: 5px;
+  background-color: black;
+  margin-left: 20px;
+}
+.border2:after{
+  content: "";
+  flex-grow: 0.8;
+  height: 5px;
+  background-color: white;
+  margin-left: 20px;
+}
+@media(max-width:740px){
+  *{
+    text-align: center;
+  }
+  .header-left{
+    padding: 20px 0px 0px 30px;
+    margin: 0;
+  }
+  .header-right a{
+    font-size: 15px;
+  }
+  .top{
+    padding: 0px;
+  }
+  .top h1{
+    font-size: 50px;
+    padding: 30px 0;
+    padding-top: 150px;
+    margin: 0;
+  }
+  .top h2{
+    font-size: 18px;
+
+  }
+  .concept{
+    text-align: center;
+    float: none;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    width: 100%;
+  }
+  .concept h2{
+    font-size: 38px;
+    float: none;
+    text-align: center;
+    margin: 30px 20px;
+    padding: 0;
+  }
+  .concept h3{
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  .concept p{
+    padding: 30px 0px;
+    margin: 0px   0px;
+    float: none;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    width: 90%;
+    display: inline-block;
+  }
+  .works p{
+  font-size: 15px;
+
+  }
+  .small{
+    float: none;
+    width: 240px;
+    height: 140px;
+
+    padding:30px 0;
+  }
+  h2{
+    font-size: 25px;
+  }
+  .work p{
+    font-size: 13px;
+
+  }
+  .work{
+    margin: 80px 0px;
+  }
+  .works{
+    width: 100%;
+    height: 1600px;
+  }
+  .works h2{
+    padding-right: 20px;
+  }
+  .works a{
+    margin-top: 0px;
+  }
+  .container{
+    margin-bottom: 20px;
+    height: 1200px;
+  }
+  .services,.work{
+    width: 100%;
+  }
+
+  .service{
+    height: 1600px;
+    padding-top: 0;
+  }
+  .service h2{
+    padding: 110px 20px 0px 20px;
+    margin: 0px;
+  }
+  .services{
+    padding-top: 80px;
+    margin-top: 0px;
+  }
+  .contact h1{
+    padding-left: 80px;
+    padding-right: 50px;
+    margin: 0px;
+    font-size: 50px;
+  }
+  .contact h4{
+    font-size: 100px;
+    padding:150px 30px 0px 50px;
+    text-align: left;
+
+  }
+}
