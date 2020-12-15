@@ -22,7 +22,7 @@ $(function(){
     $('html,body').animate({'scrollTop':(position.top)},'slow');
   });
   $('.top').bgSwitcher({
-    images:['fv-bgi_01@2x.jpg','fv-bgi_02@2x.jpg','fv-bgi_03@2x.jpg'],
+    images:['fv-bgi_02@2x.jpg'],
     interval:8000,
     effect:"fade",
     duration:500,
