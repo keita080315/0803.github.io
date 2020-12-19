@@ -73,7 +73,7 @@ body{
   width: 440px;
   height: 240px;
   float: right;
-  padding: 120px 150px 80px 40px ;
+  padding: 120px 10% 80px 20px ;
 
 }
 .concept h4{
@@ -194,6 +194,7 @@ i{
 .text1{
   float: left;
   padding: 40px 150px;
+
 }
 .text2{
   float: right;
@@ -215,13 +216,13 @@ i{
 
 .first img{
   float: left;
-  padding: 50px 100px;
+  padding: 50px 0 50px 100px;
   width: 400px;
   height: 280px;
 }
 .second img{
   float: left;
-  padding: 50px 100px;
+  padding: 50px 0 50px 100px;
   width: 400px;
   height: 280px;
 }
@@ -260,7 +261,7 @@ i{
 }
 .image3{
   height: 300px;
-  margin: 0px 100px;
+  margin: 0px 50px 0 50px;
 }
 .example{
   width: 100%;
